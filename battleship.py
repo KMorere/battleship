@@ -61,7 +61,7 @@ def generate_ship():
     for i in range(len(coords)):
         for j in range(len(coords[i])):
             y = coords[i][j][0]-1
-            x = coords[i][j][1]
+            x = coords[i][j][1]-1
             grid[y][x] = 1
             ship_tile_amount += 1
 
